@@ -11,7 +11,7 @@ async def test_otp():
     await client.connect()
     
     # Minta kode telepon
-    phone = "+6283852862765"  # Ganti dengan nomor Anda
+    phone = "+6283840151859"  # Ganti dengan nomor Anda
     result = await client.send_code_request(phone)
     print(f"Kode terkirim. Hash: {result.phone_code_hash}")
     
